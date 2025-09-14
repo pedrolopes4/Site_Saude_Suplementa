@@ -21,7 +21,7 @@ header {
     background: linear-gradient(to bottom left, rgb(255, 119, 0), rgb(255, 255, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 35px;
+    font-size: 40px;
     margin-left: 170px;
     margin-top: 20px;
     margin-bottom: 0;
@@ -54,7 +54,7 @@ body::before {
 
 #h1section1 {
     font-size: 100px;
-    background: linear-gradient(to bottom left, rgb(255, 157, 0), rgb(255, 255, 255));
+    background: linear-gradient(to bottom left, rgb(255, 140, 0) 50%, rgb(255, 255, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -74,7 +74,7 @@ a {
 }
 
 .laranja {
-    background: linear-gradient(to bottom left, rgb(255, 119, 0), rgb(255, 255, 255));
+    background: linear-gradient(to bottom left, rgb(255, 119, 0) 40%, rgb(255, 255, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -128,7 +128,7 @@ a {
 }
 
 #section2 {
-    background: linear-gradient(to bottom left, rgb(0, 0, 0), rgb(63, 63, 63));
+    background: linear-gradient(75deg, #000000 20%, rgb(29, 29, 29) 5%);
     height: 650px;
     position: relative;
     bottom: 15px;
